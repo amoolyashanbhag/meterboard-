@@ -1,0 +1,9 @@
+import cv2
+import pytesseract
+import numpy as np
+from matplotlib import pyplot as plt
+
+
+# Change the default colormap of matplotlib
+# plt.rcParams['image.cmap'] = 'viridis'
+plt.rcParams['image.cmap'] = 'gray'
