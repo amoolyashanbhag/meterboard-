@@ -1,1 +1,19 @@
-
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import cv2\n",
+    "import pytesseract\n",
+    "import numpy as np\n",
+    "from matplotlib import pyplot as plt\n",
+    "\n",
+    "\n",
+    "# Change the default colormap of matplotlib\n",
+    "# plt.rcParams['image.cmap'] = 'viridis'\n",
+    "plt.rcParams['image.cmap'] = 'gray'"
+   ]
+  }
